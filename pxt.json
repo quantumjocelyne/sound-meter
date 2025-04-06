@@ -1,0 +1,35 @@
+{
+    "name": "sound meter",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "audio-recording": "*",
+        "radio-broadcast": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.5.6",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.2.4",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.45",
+        "tag": "v3.0.45",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/1ac4a7146314778b29d452dceb6cdffd0f405824",
+        "target": "7.0.61",
+        "pxt": "6.0.30",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
